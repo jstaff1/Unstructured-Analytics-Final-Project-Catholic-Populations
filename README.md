@@ -14,10 +14,15 @@ or contributed to these changes in the rising and falling of numbers.
 
 ## Files
 
-- `final_project.qmd` – Main Quarto document with code, analysis, and
-  discussion.
-- `data/` – Folder with the datasets used in the project.
-- `README.md` – Project description and instructions.
+- `UnstructuredProject.qmd` – Main Quarto document with code, analysis,
+  and discussion.
+- `labeling_sentences.csv` – File with the sentence datasets
+  pre-labeling
+- `labeling_sentences1.csv` - File with the sentence datasets
+  post-labeling
+- `README.md` – Project description with code (majority of Project)
+- `README.qmd`- same as md, just no preview
+- `UnstructuredProject.html` - project but in HTML format
 
 ## How to Render the Document
 
@@ -1873,18 +1878,18 @@ df_label.head(10)
     }
 </style>
 
-|     | sentence                                            | label |
-|-----|-----------------------------------------------------|-------|
-| 0   | The pope resides in Vatican City, enclaved in ...   |       |
-| 1   | \[ 8 \] The capital city, Paris , is a major pil... |       |
-| 2   | 3% of the population identified themselves as ...   |       |
-| 3   | According to the Mexican census, Roman Catholi...   |       |
-| 4   | Established in the second century in unbroken ...   |       |
-| 5   | During the same period, Protestants increased ...   |       |
-| 6   | Combined, these comprise about 10,000 parishes...   |       |
-| 7   | 7 percent of the population in 2020.                |       |
-| 8   | Notable churches of France include Notre Dame ...   |       |
-| 9   | \[ 7 \] 80 to 90 priests are ordained every year... |       |
+|     | sentence                                                | label |
+|-----|---------------------------------------------------------|-------|
+| 0   | There are 225 dioceses in the Catholic Church ...       |       |
+| 1   | John Vianney (the Curé of Ars ), St.                    |       |
+| 2   | The Catholic Church is the largest denominatio...       |       |
+| 3   | \[ 8 \] According to the Pontifical Yearbook of ...     |       |
+| 4   | \[ 9 \] On the other hand, a 2023 survey of 36 c...     |       |
+| 5   | With 19 percent of the adult United States ' p...       |       |
+| 6   | Owing to the Italian Renaissance , church art ...       |       |
+| 7   | In 800, Pope Leo III crowned Charlemagne Emper...       |       |
+| 8   | \[ 9 \] \[ 10 \] \[ 11 \] However, these Vatican sta... |       |
+| 9   | Established in the second century in unbroken ...       |       |
 
 </div>
 

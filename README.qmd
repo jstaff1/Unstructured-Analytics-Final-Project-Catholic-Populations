@@ -11,9 +11,12 @@ It includes the Quarto document, data, and supporting code.
 Project description: Looking at the differences between global Catholic populations from 1910 to 2010, I want to understand what may have caused or contributed to these changes in the rising and falling of numbers.
 
 ## Files
-- `final_project.qmd` – Main Quarto document with code, analysis, and discussion.
-- `data/` – Folder with the datasets used in the project.
-- `README.md` – Project description and instructions.
+- `UnstructuredProject.qmd` – Main Quarto document with code, analysis, and discussion.
+- `labeling_sentences.csv` – File with the sentence datasets pre-labeling
+- `labeling_sentences1.csv` - File with the sentence datasets post-labeling
+- `README.md` – Project description with code (majority of Project)
+- `README.qmd`- same as md, just no preview
+- `UnstructuredProject.html` - project but in HTML format
 
 ## How to Render the Document
 1. Open the project folder in VS Code.
